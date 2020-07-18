@@ -33,7 +33,7 @@ public class WEATHER_TEST {
 		String sline=res.getStatusLine();
 		System.out.println(sline);
 		
-		//getgetgetgetegetgetegtget headers
+		//get headers
 		Headers hr=res.getHeaders();
 		
 		List<Header> hrs=hr.asList();
