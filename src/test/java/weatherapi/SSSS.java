@@ -23,7 +23,7 @@ public class SSSS {
 	
 		Response res=req.request(Method.GET,"");
 	   
-	       //22222222222222222222222222222222222get status line
+	       //get status line
 		
 		String sline=res.getStatusLine();
 		System.out.println(sline);
